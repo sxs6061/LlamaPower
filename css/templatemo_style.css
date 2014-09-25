@@ -6,8 +6,6 @@ a, a:hover, a:focus { text-decoration: none; -webkit-transition: all 150ms ease-
 
 h1, h2, h3, h4, h5, h6 { font-family: 'Open Sans', Arial, Helvetice Neue, sans-serif; }
 
-p{text-align: justify;}
-
 *, *:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 #main-content, .full-width-slider { float: right; width: 77%; }
@@ -83,6 +81,7 @@ a.menu-toggle-btn i { line-height: 60px; }
 
 .bottom-footer { background-color: #313639; color: #949da2; padding: 25px 7% 16px 7%; }
 .bottom-footer a { color: white; }
+.bottom-footer .credits { text-align: right; }
 
 @media (max-width: 991px) { #main-content { width: 100%; }
   .first-footer { border-left: 0; }
