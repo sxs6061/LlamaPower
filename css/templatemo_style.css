@@ -15,7 +15,7 @@ p{text-align: justify;}
 .section-content { padding: 0 7%; margin-bottom: 100px; }
 
 .section-title { border-top: 4px solid; margin-bottom: 60px; }
-.section-title h2 { display: inline-block; padding: 20px 35px; color: white; text-transform: uppercase; font-weight: 300; margin: 0; font-size: 20px; }
+.section-title h2 { display: inline-block; padding: 15px 20px; color: white; text-transform: uppercase; font-weight: 300; margin: 0; font-size: 30px; }
 
 #llamafacts .section-title { border-color: #e09d1a; }
 #llamafacts h2 { background-color: #e9b144; }
