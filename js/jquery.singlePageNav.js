@@ -1,12 +1,3 @@
-/**
- * Single Page Nav Plugin
- * Copyright (c) 2013 Chris Wojcik <hello@chriswojcik.net>
- * Dual licensed under MIT and GPL.
- * @author Chris Wojcik
- * @version 1.1.0
- */
-
-// Utility
 if (typeof Object.create !== 'function') {
     Object.create = function(obj) {
         function F() {}
@@ -171,7 +162,7 @@ if (typeof Object.create !== 'function') {
     $.fn.singlePageNav.defaults = {
         offset: 0,
         threshold: 120,
-        speed: 400,
+        speed: 100,
         currentClass: 'current',
         easing: 'swing',
         updateHash: false,
