@@ -83,3 +83,11 @@ a.menu-toggle-btn i { line-height: 60px; }
 
 .bottom-footer { background-color: #313639; color: #949da2; padding: 25px 7% 16px 7%; }
 .bottom-footer a { color: white; }
+
+@media (max-width: 991px) { #main-content { width: 100%; }
+  .first-footer { border-left: 0; }
+  .flexslider .slides, .flexslider, .main-slider { height: auto; }
+  .service-item { margin-bottom: 30px; }
+  .progess-bars { margin-top: 40px; } }
+@media (max-width: 767px) { .slider-caption a, .slider-caption p { display: none; top: 50px !important; } }
+@media (max-width: 581px) { .slider-caption { display: none; } }
